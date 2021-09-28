@@ -107,3 +107,42 @@ body {
     justify-content: space-between;
 }
 
+.skills .li_wrap,
+.hobbies .li_wrap {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    justify-content: center;
+    text-align: center;
+}
+
+.skills .li_wrap {
+    background: #fff;
+}
+
+.skills .li_wrap .text,
+.hobbies .li_wrap .text {
+    margin-top: 5px;
+}
+
+.hobbies .li_wrap {
+    border: 2px solid #fff;
+}
+
+.hobbies .li_wrap .icon,
+.hobbies .li_wrap .text {
+    color: #fff;
+}
+
+.hobbies .li_wrap:hover {
+    background: #fff;
+}
+
+.hobbies .li_wrap:hover .icon,
+.hobbies .li_wrap:hover .text {
+    color: #9153c9;
+}
